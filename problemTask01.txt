@@ -1,0 +1,49 @@
+Task 1
+
+Problem statement
+
+Develop an employee management system project in Golang. It can be a simple CLI-based application that uses in memory data structure as a database.
+
+Aim of the employee management system
+- This system can be used by employees with various roles (admin, manager, developer, and tester).
+- Employees with an admin role can add or delete other employees from the system, while other employees can view and update their details and also see other employees' non-confidential details.
+- The login screen should appear after we run the application (CLI-based page that should take username and password as input).
+
+List of operations that admins can perform
+- Add employee details
+- View employee details
+- Update employee details
+- Delete employee details
+- List(Print) all the employees
+- Allow user to List(Print) all the employees sorted with specific field from employee details
+- List(Print) employees who have upcoming birthday in this month
+- Search employee(display all the fields except password)
+- 
+List of operations that non-admins can perform
+- View his/her details
+- Update his/her details
+- Search employee(display firstname, lastname, email, role)
+- 
+Key evaluation points
+- Search mechanism implementation (avoid using language-inbuilt search functions)
+- Implementation of a sort mechanism (avoid using the language's built-in sort function).
+- Error/Exception handling
+- Use of modular functions, structs, and interfaces
+- Validations and appropriate success/error notifications during login and employee details management
+- Proper code commenting and documentation
+- Application logging with different logging levels as required.
+
+Employee Fields
+
+
+
+{
+    ID        int
+    FirstName string
+    LastName  string
+    Email     string
+    Password  string
+    PhoneNo   string
+    Role      string
+    Salary    float64
+}

@@ -1,0 +1,10 @@
+//to testing Purpose of  sorting
+
+a = []Employee{
+		{1, "Ram", "pawar", "ram@gamil.com", "pass111", "9999888812", "Manager", 60000.00, time.Date(1990, time.January, 15, 0, 0, 0, 0, time.UTC)},
+		{2, "Aditya", "Bhosale", "adi@gamil.com", "pass222", "9999888812", "Admin", 30000.00, time.Date(2001, time.October, 10, 0, 0, 0, 0, time.UTC)},
+		{3, "Sham", "Shinde", "sham@gamil.com", "pass333", "9999888812", "Admin", 90000.00, time.Date(2001, time.January, 15, 0, 0, 0, 0, time.UTC)},
+		{4, "kiran", "dete", "kiran@gamil.com", "pass444", "9999888812", "Manager", 80000.00, time.Date(1993, time.April, 16, 0, 0, 0, 0, time.UTC)},
+		{5, "Vaibhav", "Tambave", "vv14@gamil.com", "pass123", "9113131114", "Tester", 60000.00, time.Date(1999, time.November, 2, 0, 0, 0, 0, time.UTC)},
+		{6, "Prasad", "Dete", "prasad@gamil.com", "pass666", "9112125555", "Developer", 100000.00, time.Date(1990, time.June, 12, 0, 0, 0, 0, time.UTC)},
+	}
